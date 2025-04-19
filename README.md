@@ -2,9 +2,22 @@ Code made by [Cory Grossman](https://www.corygrossman.co/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Quick Note
+## My reason for making this
 
-- I used Storyblok CDN to optimize my images and get the blurred effect. If you don't have a CDN, you can use [plaiceholder](https://plaiceholder.co/docs) in a nodejs and nextjs api environment or blur in software like Adobe Photoshop or Lightroom.
+I’ve been searching for a solution that just works to create a clean text load animation like the ones you see on [Awwwards](https://www.awwwards.com/). Everything out there either didn't give me confidence in Next.js/React or required paying for GSAP’s ScrollTrigger. So I built my own.
+
+This component uses `Plain Javascript` for splitting text and `Motion Dev (Framer Motion)` for animations. It’s lightweight, editable, and actually works.
+
+---
+
+## ✨ Features
+
+- Simple to plug into any Next.js or React project
+- Uses `Plain Javascript` to split text into words/characters
+- Animates on load or in view using `@motion.dev`
+- No GSAP required – open source and dependency-light
+- Easy to tweak animation styles and timing
+- Optimized for performance and accessibility
 
 ## Getting Started
 
