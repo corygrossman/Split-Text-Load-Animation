@@ -1,0 +1,59 @@
+:root {
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: calc(100vw / 1920 * 10);
+  height: 100%;
+  width: 100%;
+}
+
+body,
+html {
+  height: 100%;
+  overscroll-behavior: none;
+  background: #f8f8f8;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+.main {
+  position: relative;
+}
+
+h1 {
+  width: 85%;
+  font-size: 30rem;
+  line-height: 0.9;
+  letter-spacing: -1.35rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.word {
+  display: inline-block;
+}
+
+.line {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.wrapper_overflow {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+*::selection {
+  color: #00624e;
+  background: #ffda64;
+}

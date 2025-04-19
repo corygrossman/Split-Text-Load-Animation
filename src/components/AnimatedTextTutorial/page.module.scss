@@ -1,0 +1,26 @@
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.measure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  white-space: pre-wrap;
+  width: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.placeholder {
+  visibility: hidden;
+  position: relative;
+  white-space: pre-wrap;
+  pointer-events: none;
+  z-index: 0;
+}
